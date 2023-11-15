@@ -1,0 +1,310 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  /* Desktop - 1 */
+  Desktop1{
+  position: relative;
+  width: 1440px;
+  height: 1048px;
+
+  font-family: 'Bebas Neue';
+  
+  background: linear-gradient(180deg, rgba(240, 243, 77, 0.45) 1.12%, rgba(255, 230, 0, 0) 100%);
+  }
+  
+  /* HOME */
+  Home{
+  position: absolute;
+  width: 49px;
+  height: 34px;
+  left: 239px;
+  top: 79px;
+  
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  /* identical to box height */
+  
+  color: #000000;
+  }
+  
+  
+  /* NOSSA HISTÓRIA */
+  NossaHistRia{
+  position: absolute;
+  width: 137px;
+  height: 34px;
+  left: 371px;
+  top: 79px;
+  
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  /* identical to box height */
+  
+  color: #000000;
+  }
+  
+  
+  /* DOAÇÕES */
+  DoaEs{
+  position: absolute;
+  width: 77px;
+  height: 34px;
+  left: 931px;
+  top: 76px;
+  
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  /* identical to box height */
+  
+  color: #000000;
+  }
+  
+  
+  /* EVENTOS */
+  Eventos{
+  position: absolute;
+  width: 75px;
+  height: 34px;
+  left: 1091px;
+  top: 76px;
+  
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  /* identical to box height */
+  
+  color: #000000;
+  }
+  
+  
+  /* Rectangle 2 */
+  Rectangle2{
+  position: absolute;
+  width: 83px;
+  height: 103px;
+  left: -32px;
+  top: 45px;
+  
+  background: #CA5226;
+  border-radius: 32px;
+  }
+  
+  /* Rectangle 3 */
+  Rectangle3{
+  position: absolute;
+  width: 1809px;
+  height: 302px;
+  left: -185px;
+  top: 808px;
+  
+  border-radius: 67.5px;
+  }
+  
+  /* Rectangle 6 */
+  Rectangle6{
+  position: absolute;
+  width: 1382px;
+  height: 718px;
+  left: 33px;
+  top: 233px;
+  
+  background: rgba(255, 184, 0, 0.2);
+  }
+  
+  /* 2392146627-jovens 1 */
+
+  jovens1{
+
+  position: absolute;
+  width: 675px;
+  height: 717px;
+  left: 33px;
+  top: 233px;
+
+  background: linear-gradient(260.35deg, rgba(0, 0, 0, 0) 5.09%, rgba(0, 0, 0, 0.42) 92.75%);
+  border-radius: 103px;
+
+    }
+    
+
+   /* position: absolute;
+    width: 1382px; 
+    height: 718px; 
+    left: 33px; 
+    top: 233px;
+     position: absolute; 
+     background: linear-gradient(260deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.42) 100%); 
+     border-radius: 103px
+  
+  /* REDES SOCIAIS */
+  RedesSociais{
+  position: absolute;
+  width: 462.49px;
+  height: 86.86px;
+  left: 799px;
+  top: 750px;
+  }
+  
+  
+  /* GRADE REDES SOCIAIS */
+  GradeRedesSociais{
+  position: absolute;
+  width: 462.49px;
+  height: 86.86px;
+  left: 799px;
+  top: 750px;
+  
+  background: linear-gradient(178.15deg, rgba(0, 0, 0, 0.41) 1.57%, rgba(224, 224, 224, 0) 104.57%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 29px;
+  }
+  
+  /* YOUTUBE */
+  Youtube{
+  position: absolute;
+  width: 72.23px;
+  height: 74.77px;
+  left: 994.13px;
+  top: 756.6px;
+  
+  background: url(pngwing.png);
+  backdrop-filter: blur(2px);
+  /* Note: backdrop-filter has minimal browser support */
+  }
+  
+  /* INSTAGRAM */
+  Instagram{
+  position: absolute;
+  width: 58.22px;
+  height: 58.27px;
+  left: 1164.46px;
+  top: 764.29px;
+  
+  background: url(pngwing.png);
+  background-blend-mode: darken;
+  backdrop-filter: blur(2px);
+  /* Note: backdrop-filter has minimal browser support */
+  }
+  
+  /* SPOTIFY */
+  Spotify{
+  position: absolute;
+  width: 57.14px;
+  height: 58.27px;
+  left: 838.89px;
+  top: 764.29px;
+  
+  background: url(pngwing.png);
+  backdrop-filter: blur(2px);
+  /* Note: backdrop-filter has minimal browser support */
+  }
+  
+  /* 02 2 */
+  two{
+  position: absolute;
+  width: 113px;
+  height: 113px;
+  left: 1290px;
+  top: 593px;
+  
+  background: url(02.png);
+  }
+  
+  /* 01 1 */
+  one{
+  position: absolute;
+  width: 257px;
+  height: 98px;
+  left: 591px;
+  top: 37px;
+  
+  }
+  
+  /* Line 1 */
+  Line1{
+  position: absolute;
+  width: 23px;
+  height: 0px;
+  left: 10px;
+  top: 91px;
+  
+  border: 3px solid #FFFFFF;
+  }
+  
+  /* Line 2 */
+  Line2{
+  position: absolute;
+  width: 23px;
+  height: 0px;
+  left: 10px;
+  top: 97px;
+  
+  border: 3px solid #FFFFFF;
+  }
+  
+  /* Line 3 */
+  Line3{
+  position: absolute;
+  width: 23px;
+  height: 0px;
+  left: 10px;
+  top: 103px;
+  
+  border: 3px solid #FFFFFF;
+  
+  }
+  
+  /* GERAÇÃO QUE TRANSFIGURA */
+  GeraOQueTransfigura{
+  position: absolute;
+  width: 534px;
+  height: 388px;
+  left: 786px;
+  top: 362px;
+  
+  font-family: 'Bebas Neue', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 98%;
+  /* or 118px */
+  color: #9E4040;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  
+  }
+  
+  /* Rectangle 10 */
+  Rectangle10{
+  position: absolute;
+  width: 192px;
+  height: 35px;
+  left: 1222px;
+  top: 18px;
+  
+  background: rgba(244, 244, 244, 0.51);
+  }
+
+  /* Vector */
+
+pesquisa{
+position: absolute;
+width: 27px;
+height: 27px;
+
+background: #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
