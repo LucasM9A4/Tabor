@@ -122,31 +122,21 @@ html {
   
   background: rgba(255, 184, 0, 0.2);
   }
-  
+   
   /* 2392146627-jovens 1 */
-
-  jovens1{
-
-  position: absolute;
-  width: 675px;
-  height: 717px;
-  left: 33px;
-  top: 233px;
-
-  background: linear-gradient(260.35deg, rgba(0, 0, 0, 0) 5.09%, rgba(0, 0, 0, 0.42) 92.75%);
-  border-radius: 103px;
-
-    }
-    
-
-   /* position: absolute;
-    width: 1382px; 
-    height: 718px; 
-    left: 33px; 
-    top: 233px;
-     position: absolute; 
-     background: linear-gradient(260deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.42) 100%); 
-     border-radius: 103px
+  .carrossel {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carrossel img {
+    width: 100%;
+    display: none;
+  }
+  
+  .carrossel img.active {
+    display: block;
+  }
   
   /* REDES SOCIAIS */
   RedesSociais{
@@ -308,3 +298,4 @@ height: 27px;
 background: #000000;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
