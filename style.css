@@ -1,9 +1,14 @@
-html {
+  .body, html {
+    margin: 0;
+    padding: 0;
     height: 100%;
-    width: 100%;
-  }
+    display: flex;
+    flex-direction: column;
+}
   /* Desktop - 1 */
   .Desktop1{
+    display: flex;
+    flex-direction: column;
     width: 1440px; 
     height: 1048px; 
     position: relative;
@@ -107,19 +112,7 @@ html {
   }
    
   /* 2392146627-jovens 1 */
-  .carrossel {
-    width: 100%;
-    overflow: hidden;
-  }
-  
-  .carrossel img {
-    width: 100%;
-    display: none;
-  }
-  
-  .carrossel img.active {
-    display: block;
-  }
+
   
   /* REDES SOCIAIS */
   .RedesSociais{
@@ -273,6 +266,8 @@ html {
   }
     
     .desktop2{
+      display: flex;
+      flex-direction: column;
       width: 1440px; 
       height: 1048px;
       position: relative;
@@ -411,6 +406,8 @@ html {
 
       /* Desktop - 3 */
       .desktop3{
+        display: flex;
+        flex-direction: column;
         width: 1440px;
         height: 1048px;
         position: relative;
@@ -475,3 +472,11 @@ html {
       line-height: 38px;
       color: #000000;
       }
+      @media only screen and (max-width: 768px) {
+        .body, html {
+          margin: 0;
+          padding: 0;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+    }}

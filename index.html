@@ -6,53 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Convivio Tabor</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=Condiment&family=Open+Sans:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=Condiment&family=Open+Sans:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="carrossel.css">
     <script src="script.js" defer=></script>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+</head>
+<body>
 <div class="Desktop1">
 
 <a href="">
     <div class="Home">
         HOME</div></a>
 
+<a href="https://i0.statig.com.br/bancodeimagens/imgalta/7w/ms/4l/7wms4l52x4jp3ymr09ticcdp9.jpg">
     <div class="NossaHistRia">
-        NOSSA HISTÓRIA</div>
+        NOSSA HISTÓRIA</div></a>
 
     <div class="DoaEs">
         DOAÇÕES</div>
 
     <div class="Eventos">
         EVENTOS</div>
+
+        <div id="divbusca">
+            <input type="text" id="busca" placeholder="Buscar..."/>
+            <img src="IMG/lupa.png" id="lpBusca" alt="Buscar"/>
+                </div>
         
     <div class="Rectangle2">
     </div>
-    
-   <!-- <div class="Rectangle3"
-        style="width: 1809px; height: 302px; left: -185px; top: 808px; position: absolute; border-radius: 67.50px">
-    </div> -->
+
     
     <div class="Rectangle6">
     </div>
-
-    <div class="carrossel" id="img">
-
-         <div class = "slide">
-             <img src="IMG/jovem01.png" alt="imagem 1" class="active"
-                 style ="position: absolute;width: 675px;height: 717px;left: 33px;top: 233px;background: linear-gradient(260.35deg, rgba(0, 0, 0, 0) 5.09%, rgba(0, 0, 0, 0.42) 92.75%);border-radius: 103px;">
+    
+<div class="galery">
+         <div class = "slides">
+             <img src="IMG/jovem01.png" id="jovem" alt="imagem1">
+        
+             <img src="IMG/violao.png" id="violao" alt="imagem2">
+          
+             <img src="IMG/silhueta.png" id="silhueta" alt="imagem3">
          </div>
 
-         <div class= "slide">
-             <img src="IMG/violao.png" alt="imagem 2"
-                 style ="position: absolute;width: 675px;height: 717px;left: 33px;top: 233px;background: linear-gradient(260.35deg, rgba(0, 0, 0, 0) 5.09%, rgba(0, 0, 0, 0.42) 92.75%);border-radius: 103px;">
-         </div>
-
-         <div class= "slide">
-             <img src="IMG/silhueta.png" alt="imagem 3"
-                 style ="position: absolute;width: 675px;height: 717px;left: 33px;top: 233px;background: linear-gradient(260.35deg, rgba(0, 0, 0, 0) 5.09%, rgba(0, 0, 0, 0.42) 92.75%);border-radius: 103px;">
-         </div>
-    </div>
+<script>
+  $(document).ready(function(){
+    $('.slides').slick({
+      autoplay: true, // para reprodução automática
+      autoplaySpeed: 3000, // tempo de exibição de cada slide em milissegundos
+      dots: true, // para mostrar indicadores de navegação (pontos)
+      arrows: false, // para exibir setas de navegação
+      infinite: true,
+      responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+    });
+  });
+</script>
+</div>
 
     <div class="RedesSociais">
 
@@ -100,10 +128,7 @@
               QUE  TRANSFIGURA</span>
     </div>
 
-    <div id="divbusca">
-    <input type="text" id="busca" placeholder="Buscar..."/>
-    <img src="IMG/lupa.png" id="lpBusca" alt="Buscar"/>
-        </div>
+
     </div>
 
     <div class="desktop2">
@@ -155,3 +180,5 @@ src="IMG/jovens.png">
 R. Paranaguá, 2633 - Bairro São Cristóvão, Cascavel</span>
 
 </div>
+</body>
+</html>
