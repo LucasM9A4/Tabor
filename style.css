@@ -3,105 +3,87 @@ html {
     width: 100%;
   }
   /* Desktop - 1 */
-  Desktop1{
-  position: relative;
-  width: 1440px;
-  height: 1048px;
-
-  font-family: 'Bebas Neue';
-  
-  background: linear-gradient(180deg, rgba(240, 243, 77, 0.45) 1.12%, rgba(255, 230, 0, 0) 100%);
+  .Desktop1{
+    width: 1440px; 
+    height: 1048px; 
+    position: relative;
+    background: linear-gradient(180deg, rgba(239.99, 243.31, 77.05, 0.45) 0%, rgba(255, 229.50, 0, 0) 100%);
   }
   
   /* HOME */
-  Home{
-  position: absolute;
-  width: 49px;
-  height: 34px;
-  left: 239px;
-  top: 79px;
-  
-  font-family: 'Bebas Neue';
+  .Home{
+  left: 239px; 
+  top: 79px; 
+  position: absolute; 
+  color: black; 
+  font-size: 28px; 
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400; 
+  word-wrap: break-word;
   font-style: normal;
-  font-weight: 400;
-  font-size: 28px;
   line-height: 34px;
   /* identical to box height */
-  
-  color: #000000;
   }
   
   
   /* NOSSA HISTÓRIA */
-  NossaHistRia{
-  position: absolute;
-  width: 137px;
-  height: 34px;
-  left: 371px;
-  top: 79px;
-  
-  font-family: 'Bebas Neue';
+  .NossaHistRia{
+
+  left: 371px; 
+  top: 79px; 
+  position: absolute; 
+  color: black; 
+  font-size: 28px; 
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400; 
+  word-wrap: break-word;
   font-style: normal;
-  font-weight: 400;
-  font-size: 28px;
   line-height: 34px;
   /* identical to box height */
-  
-  color: #000000;
   }
   
   
   /* DOAÇÕES */
-  DoaEs{
-  position: absolute;
-  width: 77px;
-  height: 34px;
-  left: 931px;
-  top: 76px;
-  
-  font-family: 'Bebas Neue';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 34px;
+  .DoaEs{
+  left: 931px; 
+  top: 76px; 
+  position: absolute; 
+  color: black; 
+  font-size: 28px; 
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400; 
+  word-wrap: break-word;
   /* identical to box height */
-  
-  color: #000000;
   }
   
   
   /* EVENTOS */
-  Eventos{
-  position: absolute;
-  width: 75px;
-  height: 34px;
-  left: 1091px;
-  top: 76px;
-  
-  font-family: 'Bebas Neue';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 34px;
+  .Eventos{
+  left: 1091px; 
+  top: 76px; 
+  position: absolute; 
+  color: black; 
+  font-size: 28px; 
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400; 
+  word-wrap: break-word;
   /* identical to box height */
-  
-  color: #000000;
   }
   
   
   /* Rectangle 2 */
-  Rectangle2{
-  position: absolute;
-  width: 83px;
-  height: 103px;
-  left: -32px;
-  top: 45px;
-  
-  background: #CA5226;
+  .Rectangle2{
+
+  width: 83px; 
+  height: 103px; 
+  left: -32px; 
+  top: 45px; 
+  position: absolute; 
+  background: #CA5226; 
   border-radius: 32px;
   }
   
-  /* Rectangle 3 */
+  /* Rectangle 3 
   Rectangle3{
   position: absolute;
   width: 1809px;
@@ -110,17 +92,18 @@ html {
   top: 808px;
   
   border-radius: 67.5px;
-  }
+  }*/
   
   /* Rectangle 6 */
-  Rectangle6{
-  position: absolute;
-  width: 1382px;
-  height: 718px;
-  left: 33px;
-  top: 233px;
-  
-  background: rgba(255, 184, 0, 0.2);
+  .Rectangle6{
+
+  width: 1382px; 
+  height: 718px; 
+  left: 33px; 
+  top: 233px; 
+  position: absolute; 
+  background: rgba(255, 183.68, 0.27, 0.20); 
+  border-radius: 100px;
   }
    
   /* 2392146627-jovens 1 */
@@ -139,91 +122,82 @@ html {
   }
   
   /* REDES SOCIAIS */
-  RedesSociais{
+  .RedesSociais{
+  width: 462.49px; 
+  height: 86.86px; 
+  left: 799px; 
+  top: 750px; 
   position: absolute;
-  width: 462.49px;
-  height: 86.86px;
-  left: 799px;
-  top: 750px;
   }
   
   
   /* GRADE REDES SOCIAIS */
-  GradeRedesSociais{
-  position: absolute;
-  width: 462.49px;
-  height: 86.86px;
-  left: 799px;
-  top: 750px;
-  
-  background: linear-gradient(178.15deg, rgba(0, 0, 0, 0.41) 1.57%, rgba(224, 224, 224, 0) 104.57%);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  .GradeRedesSociais{
+  width: 462.49px; 
+  height: 86.86px; 
+  left: 0px; 
+  top: 0px; 
+  position: absolute; 
+  background: linear-gradient(178deg, rgba(0, 0, 0, 0.41) 0%, rgba(224.19, 224.19, 224.19, 0) 100%); 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
   border-radius: 29px;
   }
   
   /* YOUTUBE */
-  Youtube{
-  position: absolute;
-  width: 72.23px;
-  height: 74.77px;
-  left: 994.13px;
-  top: 756.6px;
-  
-  background: url(pngwing.png);
-  backdrop-filter: blur(2px);
+  .Youtube{
+    width: 72.23px; 
+    height: 74.77px; 
+    left: 195.13px; 
+    top: 6.60px; 
+    position: absolute; 
+    backdrop-filter: blur(4px);
   /* Note: backdrop-filter has minimal browser support */
   }
   
   /* INSTAGRAM */
-  Instagram{
-  position: absolute;
-  width: 58.22px;
-  height: 58.27px;
-  left: 1164.46px;
-  top: 764.29px;
-  
-  background: url(pngwing.png);
-  background-blend-mode: darken;
-  backdrop-filter: blur(2px);
+  .Instagram{
+    width: 58.22px; 
+    height: 58.27px; 
+    left: 365.46px; 
+    top: 14.29px; 
+    position: absolute; 
+    backdrop-filter: blur(4px);
   /* Note: backdrop-filter has minimal browser support */
   }
   
   /* SPOTIFY */
-  Spotify{
-  position: absolute;
-  width: 57.14px;
-  height: 58.27px;
-  left: 838.89px;
-  top: 764.29px;
-  
-  background: url(pngwing.png);
-  backdrop-filter: blur(2px);
+  .Spotify{
+  width: 57.14px; 
+  height: 58.27px; 
+  left: 39.89px; 
+  top: 14.29px; 
+  position: absolute; 
+  backdrop-filter: blur(4px);
   /* Note: backdrop-filter has minimal browser support */
   }
   
-  /* 02 2 */
-  two{
-  position: absolute;
-  width: 113px;
+  /* logo tabor na frente do "transfigura" */
+  .two{
+  width: 89px; 
   height: 113px;
-  left: 1290px;
-  top: 593px;
-  
-  background: url(02.png);
+  left: 1290px; 
+  top: 593px; 
+  position: absolute;
   }
   
-  /* 01 1 */
-  one{
-  position: absolute;
-  width: 257px;
-  height: 98px;
-  left: 591px;
-  top: 37px;
+  /* Logo principal  */
+  .one{
+  width: 257px; 
+  height: 98px; 
+  left: 591px; 
+  top: 37px; 
+  position: absolute; 
+  border-radius: 3px
   
   }
   
   /* Line 1 */
-  Line1{
+  .Line1{
   position: absolute;
   width: 23px;
   height: 0px;
@@ -234,7 +208,7 @@ html {
   }
   
   /* Line 2 */
-  Line2{
+  .Line2{
   position: absolute;
   width: 23px;
   height: 0px;
@@ -245,7 +219,7 @@ html {
   }
   
   /* Line 3 */
-  Line3{
+  .Line3{
   position: absolute;
   width: 23px;
   height: 0px;
@@ -257,45 +231,247 @@ html {
   }
   
   /* GERAÇÃO QUE TRANSFIGURA */
-  GeraOQueTransfigura{
+  .GeraOQueTransfigura{
   position: absolute;
   width: 534px;
   height: 388px;
   left: 786px;
   top: 362px;
-  
-  font-family: 'Bebas Neue', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 120px;
-  line-height: 98%;
-  /* or 118px */
-  color: #9E4040;
-  
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-  
   }
-  
-  /* Rectangle 10 */
-  Rectangle10{
-  position: absolute;
-  width: 192px;
-  height: 35px;
-  left: 1222px;
-  top: 18px;
-  
-  background: rgba(244, 244, 244, 0.51);
+  #busca{
+    width: 192px; 
+    height: 35px;
+    left: 3px;
+    position: absolute; 
+    background: rgba(244.37, 244.37, 244.37, 0.51);
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
   }
 
-  /* Vector */
+  #divbusca{
+    width: 192px; 
+    height: 35px; 
+    left: 1222px; 
+    top: 18px; 
+    position: absolute; 
+    background-color:white;
+    border-radius:15px;
+  }
 
-pesquisa{
-position: absolute;
-width: 27px;
-height: 27px;
+  /* LUPA */
+  #lpBusca{
+  width: 27px; 
+  height: 27px; 
+  left: 162px;
+  top: 4px; 
+  position: absolute; 
+  backdrop-filter: blur (4px);
+  }
+    
+    .desktop2{
+      width: 1440px; 
+      height: 1048px;
+      position: relative;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.41) 1.12%, rgba(255, 229, 0, 0.45) 100%);
+    }
 
-background: #000000;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+    /* FUNDO "CONHEÇA NOSSO CARISMA" */
+    .rectangle5{
+      width: 1440px; 
+      height: 483px;
+      position: absolute; 
+      background-color: #88705a;
+    }
 
+    /*CONHEÇA NOSSO CARISMA*/
+    .text1{
+      width: 315px;
+      height: 315px; 
+      left: 191px; 
+      top: 100px; 
+      position: absolute;
+    }
+
+    /* TEXTÃO */
+    .text2{
+      width: 697px; 
+      height: 420px; 
+      top: 34px; 
+      left: 646px; 
+      position: absolute;
+    }
+
+    /*ESPAÇO MENSAGEM SANTOS*/
+    .santos{
+      width: 1392.57px; 
+      height: 523px; 
+      left: 43px; 
+      top: 497px;
+    }
+
+    /* FUNDO MENSAGEM */
+    .rectangle1{
+      width: 1392.57px; 
+      height: 373.87px; 
+      top: 578.92px; 
+      left: 43px;
+      position: absolute; 
+      border-radius: 90px; 
+      background: rgba(231, 182, 44, 0.25);
+    }
+
+    .mensagem{
+      position: absolute;
+      width: 971.44px;
+      height: 193.24px;
+      left: 320px;
+      top:  57px;
+      font-family: 'Caveat', cursive;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 63px;
+      color: #000000;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    /* IMG SANTO */
+    .sFrancisco{
+      position: absolute;
+      width: 287.76px;
+      height: 523px;
+      left: 74.51px;
+      top: 497px;
+    }
+
+          /* Fundo nome autor da msg */
+    .rectangle4{
+      position: absolute;
+      width: 253.1px;
+      height: 32.56px;
+      left: 320px;
+      top: 270px;
+      background: rgba(255, 0, 0, 0.1);
+      filter: blur(2px);
+      border-radius: 13px;
+    }
+
+    /* São Francisco de Assis */
+    .autorMSG{
+      position: absolute;
+      width: 202.69px;
+      height: 39.91px;
+      left: 344px;
+      top: 270px;
+      font-family: 'Condiment';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 38px;
+      color: #000000;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    /* Ellipse 1 */
+      .ellipse1{
+      position: absolute;
+      width: 16.8px;
+      height: 15.75px;
+      left: 662px;
+      top: 335px;
+      border-radius: 100%;
+      background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    }
+    
+    /* Ellipse 2 */
+    .ellipse2{
+      position: absolute;
+      width: 16.8px;
+      height: 15.75px;
+      left: 688px;
+      top: 335px;
+      border-radius: 100%;
+      background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    }
+
+    /* Ellipse 3 */
+    .ellipse3{
+      position: absolute;
+      width: 16.8px;
+      height: 15.75px;
+      left: 714px;
+      top: 335px;
+      border-radius: 100%;
+      background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    }
+
+      /* Desktop - 3 */
+      .desktop3{
+        width: 1440px;
+        height: 1048px;
+        position: relative;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.4095) 38.59%, rgba(255, 230, 0, 0.45) 100%);
+      }
+
+      /* NOSSO CENTRO DE EVANGELIZAÇÃO */
+      .TITULO{
+        position: absolute;
+        width: 776px;
+        height: 90px;
+        left: 49px;
+        top: 81px;
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 74px;
+        line-height: 90px;
+        /* identical to box height */
+
+        color: #000000;
+      }
+
+      .fachada{
+      position: absolute;
+      width: 485px;
+      height: 394px;
+      left: 49px;
+      top: 175px;
+      border-radius: 60px;
+      }
+      
+      .jovens{
+      position: absolute;
+      width:454px;
+      height:422px;
+      object-fit: cover;
+      left: 419px;
+      top: 234px;
+      border-radius: 190px;
+      }
+
+      .interior{
+      position: absolute;
+      width: 579px;
+      height: 359px;
+      left: 806px;
+      top: 168px;
+      border-radius: 64px;
+      }
+
+      .endereço{
+      position: absolute;
+      width: 550px;
+      height: 38px;
+      left: 867px;
+      top: 540px;
+      font-family: 'Bebas Neue';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 31px;
+      line-height: 38px;
+      color: #000000;
+      }
